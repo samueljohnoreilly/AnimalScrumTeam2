@@ -19,6 +19,10 @@ namespace MyAnimal.Controllers {
             return View();
         }
 
+        public IActionResult Mating() {
+            return View();
+        }
+
         public IActionResult Privacy() {
             return View();
         }
