@@ -19,6 +19,10 @@ namespace MyAnimal.Controllers {
             return View();
         }
 
+        public IActionResult Mating() {
+            return View();
+        }
+
         public IActionResult Privacy() {
             return View();
         }
@@ -26,6 +30,11 @@ namespace MyAnimal.Controllers {
         [HttpGet]
         public IActionResult Communications() {
 	        return View();
+        }
+
+        public IActionResult Habitat()
+        {
+            return View();
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
