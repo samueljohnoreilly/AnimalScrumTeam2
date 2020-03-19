@@ -36,5 +36,10 @@ namespace MyAnimal.Controllers {
         public IActionResult PopCulture() {
 	        return View();
         }
+
+        public IActionResult Diet()
+        {
+            return View();
+        }
     }
 }
