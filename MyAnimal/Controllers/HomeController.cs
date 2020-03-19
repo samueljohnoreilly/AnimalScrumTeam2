@@ -41,5 +41,10 @@ namespace MyAnimal.Controllers {
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Behaviour() {
+	        return View();
+        }
     }
 }
