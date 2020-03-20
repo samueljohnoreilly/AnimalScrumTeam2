@@ -91,3 +91,11 @@ a.navbar-brand {
 .image {
     width: 600px;
 }
+
+.next {
+    background-color: aquamarine;
+}
+
+.prev {
+    background-color: aquamarine;
+}
