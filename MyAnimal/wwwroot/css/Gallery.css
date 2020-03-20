@@ -63,6 +63,17 @@
         background-color: #717171;
     }
 
+/* Caption text */
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
 /* Fading animation */
 .fade {
     -webkit-animation-name: fade;
