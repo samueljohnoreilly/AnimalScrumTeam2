@@ -26,6 +26,12 @@ namespace MyAnimal.Controllers {
 	        return View();
         }
 
+        [HttpGet]
+        public IActionResult ContactUs()
+        {
+            return View();
+        }
+
         public IActionResult Habitat()
         {
             return View();
