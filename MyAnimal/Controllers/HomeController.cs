@@ -55,5 +55,9 @@ namespace MyAnimal.Controllers {
         public IActionResult Behaviour() {
 	        return View();
         }
+
+        public IActionResult Miscellaneous() {
+	        return View();
+        }
     }
 }
